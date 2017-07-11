@@ -19,8 +19,8 @@
 	<id>user_pwauth</id>
 	<name>Unix user backend</name>
 	<description>Authenticate Users by PAM</description>
-	<version>2.4</version>
-	<licence>WTFPL</licence>
+	<version>2.4.0</version>
+	<licence>AGPL</licence>
 	<author>Clément Véret</author>
 	<require>8.0</require>
 	<types>
