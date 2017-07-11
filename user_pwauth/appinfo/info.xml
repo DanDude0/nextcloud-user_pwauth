@@ -19,7 +19,7 @@
 	<id>user_pwauth</id>
 	<name>Unix user backend</name>
 	<description>Authenticate Users by PAM</description>
-	<version>2.4.3</version>
+	<version>2.4.5</version>
 	<licence>AGPL</licence>
 	<author>Clément Véret</author>
 	<repository>https://github.com/veretcle/nextcloud-user_pwauth</repository>
@@ -29,6 +29,7 @@
 		<authentication/>
 	</types>
 	<dependencies>
-		<nextcloud min-version="10"/>
+		<nextcloud min-version="10" max-version="12" />
+		<owncloud min-version="8" max-version="10" />
 	</dependencies>
 </info>
